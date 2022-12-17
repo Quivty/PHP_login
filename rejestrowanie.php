@@ -14,6 +14,8 @@
     $p=@$_COOKIE["haslo"];
     if($l!=""&&$p!=""){
         header("Location: logowanie.html");
+    }else{
+        header("Location: rejestracja.html");
     }
 ?>
 </body>
